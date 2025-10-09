@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.cta {
+  cursor: pointer;
+  border-radius: 1em;
+  border: var(--bgcolor);
+  background-color: #2b7dda; /* Corrected: Used shorthand and a solid style */
+  padding: 15px 25px; /* Corrected: Space is required between values */
+  font-family: 'Montserrat', sans-serif; /* Corrected: Added fallback font */
+  color: var(--txtcolor);
+  text-decoration: none; /* Recommended: Removes the default underline from links */
+  transition: 150ms ease;
+}
+
+
+.cta:hover {
+  scale: 1.05;
+  border: #2b7dda;
+  text-decoration: underline;
+}
+
+.cta:active{
+  scale: 0.95; 
+}
+
+body {
+  background-color: var(--bgcolor);
+}
+
+.rightaligned {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.leftaligned {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+
+*{
+  color: var(--txtcolor);
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
