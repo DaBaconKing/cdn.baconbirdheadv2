@@ -41,6 +41,7 @@ body {
 
 *{
   color: var(--txtcolor);
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   margin: 0px;
   padding: 0px;
